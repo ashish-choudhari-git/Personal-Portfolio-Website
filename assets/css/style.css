@@ -87,7 +87,8 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img, ion-icon, a, button, time, span { display: block; }
+img, ion-icon, a, button, time, span { border-radius:8px;
+				      display: block; }
 
 button {
   font: inherit;
@@ -259,7 +260,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 170px;
+  max-height: 153px;
   overflow: hidden;
   transition: var(--transition-2);
 }
