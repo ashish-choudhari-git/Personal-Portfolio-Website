@@ -1622,9 +1622,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .contacts-list { grid-template-columns: 1fr; }
 
   .contact-info :is(.contact-link) {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  
+    overflow-wrap:break-word;
   }
 
   .contact-info :is(.contact-link, time, address) {
@@ -1772,3 +1771,18 @@ textarea.form-input::-webkit-resizer { display: none; }
 body.inverted {
   filter: invert(1);
 }
+
+@media (min-width: 1024px) { 
+      aside.sidebar {
+        width: 310px; 
+        flex-shrink: 0;
+      }
+ }
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  aside.sidebar {
+    width: 950px;
+    flex-shrink: 0;
+  }
+}
+
