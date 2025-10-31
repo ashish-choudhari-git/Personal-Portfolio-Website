@@ -7,7 +7,7 @@ This is my personal portfolio website showcasing my skills, projects, and backgr
 Hi! I'm Aashish Choudhari, a Full tack web developer. This portfolio highlights my work, skills, and contact information. Feel free to explore and get in touch!
 
 ## 🖥️ Live Site
-https://aashish-choudhari-portfolio.vercel.app/
+https://ashishchoudhari.me/
 
 ## 🛠️ Features
 
@@ -21,7 +21,6 @@ https://aashish-choudhari-portfolio.vercel.app/
 - HTML5
 - CSS3
 - JavaScript
-- [Optional: any additional tools or libraries you added]
 
 ## 🎨 Template Credit
 
