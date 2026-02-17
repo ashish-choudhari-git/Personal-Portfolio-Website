@@ -1788,3 +1788,35 @@ body.inverted {
   }
 }
 
+
+
+.projectskill{
+  margin-top: 100px;
+  border-top: 2px solid white;
+  padding-top:30px;
+}
+
+.vibe{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.vibe .project-img {
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .vibe{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+}
